@@ -27,7 +27,7 @@ require("dotenv").load();
   await relationshipProducts(catalog);
 
   //Add sibiling id to parent
-  // await parentIDProducts(catalog);
+  await parentIDProducts(catalog);
 
   console.log("New  catalog is ready to go");
 })();
